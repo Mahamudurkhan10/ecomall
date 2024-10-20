@@ -65,7 +65,7 @@ const Navbar = () => {
                                              </div>
                                         </div>
                                    </div>
-                                   <button type='submit' className=' bg-[#0068c8] text-white px-5 uppercase '> search </button>
+                                   <button type='submit' className=' bg-[#0068c8] text-white px-5 uppercase '> search </button> 
                               </form>
                          </div>
                     </div>
