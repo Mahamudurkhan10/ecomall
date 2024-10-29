@@ -1,10 +1,11 @@
 import React from 'react';
 import Category from '../../Components/MainLayout/Home/Category';
+import HomeBanner from '../../Components/MainLayout/Home/HomeBanner';
 
 const Home = () => {
      return (
-          <div className='container mx-auto'>
-               <Category></Category>
+          <div className=''>
+             <HomeBanner></HomeBanner>
           </div>
      );
 };
