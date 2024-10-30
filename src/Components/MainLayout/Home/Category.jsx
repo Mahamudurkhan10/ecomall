@@ -86,7 +86,7 @@ const categories = [
 ]
 const Category = () => {
      const swiperRef = useRef(null);
-     return (
+     return ( 
           <div>
                <div className='mt-6 relative'>
                     {categories.length > 0 && (
@@ -105,7 +105,7 @@ const Category = () => {
                                         slidesPerView: 1,
                                    },
                                    768: {
-                                        slidesPerView: 2,
+                                        slidesPerView: 2,   
                                    },
                                    1024: {
                                         slidesPerView: 6,
